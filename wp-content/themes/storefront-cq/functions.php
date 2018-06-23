@@ -251,9 +251,8 @@ if ( storefront_is_woocommerce_activated() ) {
   add_action( 'woocommerce_before_checkout_form', function() {
     ?>
     	<ol class="checkout-progress" tabindex="0" role="progressbar"
-    			aria-valuemin="1" aria-valuemax="4"
-    			aria-valuenow="2" aria-valuetext="Step 2 of 4: Review Order">
-    		<li aria-hidden="true" data-step-complete><a href="<?php echo get_permalink(get_page_by_path('/checkout/step-1')); ?>">Ticket Info</a></li>
+    			aria-valuemin="1" aria-valuemax="3"
+    			aria-valuenow="1" aria-valuetext="Step 1 of 3: Review Order">
     		<li aria-hidden="true" data-step-current>Review Order</li>
     		<li aria-hidden="true" data-step-incomplete>Payment</li>
     		<li aria-hidden="true" data-step-incomplete>Complete</li>
@@ -264,7 +263,7 @@ if ( storefront_is_woocommerce_activated() ) {
   /**
    * Remove order notes and country fields in checkout
    */
-  // add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
+  add_filter( 'woocommerce_enable_order_notes_field', '__return_false' );
   // add_filter( 'woocommerce_checkout_fields' , 'custom_wc_checkout_fields' );
   // function custom_wc_checkout_fields( $fields ) {
   //   $fields['billing']['billing_state']['label'] = 'State';

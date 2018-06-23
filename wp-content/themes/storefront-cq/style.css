@@ -507,7 +507,7 @@ ol.checkout-progress li {
 }
 
 ol.checkout-progress li[data-step-current] {
-  color: #13294B;
+  color: #316e8c;
   font-weight: bold;
 }
 
@@ -535,12 +535,12 @@ ol.checkout-progress li::before {
 }
 
 ol.checkout-progress li[data-step-current]::before {
-  background: #13294B;
+  background: #316e8c;
   color: #ffffff;
 }
 
 ol.checkout-progress li[data-step-complete]::before {
-  background: #4B9CD3;
+  background: #00283c;
   color: #ffffff;
 }
 
@@ -554,7 +554,7 @@ ol.checkout-progress li::after {
 
 ol.checkout-progress li[data-step-complete]::after,
 ol.checkout-progress li[data-step-current]::after {
-  background: #4b9cd3;
+  background: #00283c;
 }
 
 ol.checkout-progress li:first-child::after {
@@ -562,7 +562,7 @@ ol.checkout-progress li:first-child::after {
 }
 
 .ticket-details-wrapper {
-  border-left: 2px solid #4b9cd3;
+  border-left: 2px solid #00283c;
   border-bottom: 1px solid #e1e1e1;
   padding-left: 10px;
   margin-bottom: 3em;
