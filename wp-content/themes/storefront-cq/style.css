@@ -236,6 +236,7 @@ body.woocommerce-checkout .storefront-handheld-footer-bar {
 /*****************************************************************************
 * HOME/SHOP PAGE
 *****************************************************************************/
+
 ul.products li.product .woocommerce-loop-product__title, ul.products li.product h2, ul.products li.product h3 {
   font-size: 1.2em;
 }
@@ -451,6 +452,19 @@ ul.products li.product .button.sold-out {
   border-color: #767676;
   cursor: default;
 } */
+
+/*****************************************************************************
+* SINGLE PRODUCT PAGE
+*****************************************************************************/
+
+.single-product div.product .variations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single-product div.product .variations .var {
+  flex: 1 0 auto;
+}
 
 /*****************************************************************************
 * CHECKOUT PAGES
