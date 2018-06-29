@@ -561,65 +561,6 @@ ol.checkout-progress li:first-child::after {
   display: none;
 }
 
-.ticket-details-wrapper {
-  border-left: 2px solid #00283c;
-  border-bottom: 1px solid #e1e1e1;
-  padding-left: 10px;
-  margin-bottom: 3em;
-  width: 100%;
-  overflow: hidden;
-}
-
-.ticket-details-wrapper h3 {
-  font-weight: bold;
-  margin-bottom: 0;
-}
-
-.ticket-details h4 {
-  border-bottom: 2px solid #8FD16A;
-  padding-bottom: 10px;
-  margin-bottom: 1em;
-}
-
-@media (min-width: 768px) {
-  .ticket-details.col-1 {
-  	float: left;
-  	width: 48%;
-    clear: left;
-  }
-
-  .ticket-details.col-2 {
-  	float: right;
-  	width: 48%;
-  }
-}
-
-.ticket-details h4 {
-  color: #8FD16A;
-  font-weight: bold;
-}
-
-.ticket-details .hidden-fields {
-  display: none;
-  margin-bottom: 1em;
-}
-
-.ticket-details .hidden-fields.visible {
-  display: block;
-  border: none;
-}
-
-.discount-validation .hidden-fields p.info {
-  background: #FFD96A;
-  padding: 10px;
-  border: 1px solid #FFC03F;
-}
-
-.ui-control.select {
-  position: relative;
-  display: block;
-}
-
 .ui-control.select select {
   display: block;
   width: 100%;
